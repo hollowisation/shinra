@@ -17,10 +17,10 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
 }]), app.run(["$rootScope", "$state", "firebase", function(a, b, c) {
   a.settings = {}, a.$state = b;
   var d = {
-    apiKey: "AIzaSyCiw4FQSm_3bIBweLiTz2Q6N4hDio5a0y8",
-    databaseURL: "https://arcaneshare2018.firebaseio.com",
-    storageBucket: "arcaneshare2018.appspot.com",
-    messagingSenderId: "360046711661"    
+    apiKey: "AIzaSyAdCKSX46zvTRWxSg99xgboaZ1v3aDhIWI",
+    databaseURL: "https://massacreshares7.firebaseio.com",
+    storageBucket: "massacreshares7.appspot.com",
+    messagingSenderId: "182713852873"    
   };
   c.initializeApp(d)
 }]), app.controller("MvpCtrl", ["$scope", "$rootScope", "$timeout", "$state", "DataSrv", "webNotification", "time", function(a, b, c, d, e, f, g) {
